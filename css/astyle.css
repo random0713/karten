@@ -1,0 +1,43 @@
+body {
+	font-family: arial;
+	color: white;
+	background: url("image/hey.png");
+}
+
+div.karten {
+	display: inline-block;
+	width: 250px;
+	height: 300px;
+	margin-right: 100px;
+	margin-left: 100px;
+	position: relative;
+	
+}
+
+img {
+	width: 200px;
+	height: 250px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 4px rgba(0, 0, 0.5);
+	-moz-box-shadow: 3px 3px 4px rgba(0, 0, 0.5);
+	-webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0.5);
+	position: relative;
+}
+
+ul {
+	list-style-type: none;
+}
+
+button {
+	border: 2px solid blue;
+	border-radius: 8px;
+	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	font-size: 16px;
+	text-align: center;
+}
+
+div.tocenter {
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+}

@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Karten Spiel</title>
+		<meta charset="utf-8"/>
+		
+		<link rel="stylesheet" href="css/astyle.css"  type="text/css" media="screen"/>
+    </head>
+
+	<body>
+	
+		<div class ="tocenter"><h2> Karten Spiel </h2></div>
+		
+		</br>
+		</br>
+		
+		<div class ="tocenter"><p> Versuch mal, doppelt von deinem Geld zu gewinnen! </p></div>
+		
+		<div class="karten">
+		
+			<ul>
+				<li> 
+				     <img src = "img/544614375.jpg"   
+				          alt= "koenigHerz"   
+						  id="koenig" 
+						  value = "rot" 
+						  name = "herz" 
+						  style = "display: block" /> 
+			    </li>
+				<li> 
+				     <img src = "img/544597945.jpg"
+					      alt= "koenigKreuz"   
+						  id="koenig" 
+						  value = "schwarz"
+						  name = "kreuz"
+						  style = "display: none" />
+			    </li>
+				<li>
+					<img src = "img/544612451.jpg"
+					     alt = "koenigKaro"
+						 id ="koenig"
+						 value = "rot"
+						 name = "karo"
+						 style = "display: none" />
+		         </li>
+				 <li>
+					<img src = "img/544615739.jpg"
+					     alt = "koenigPik"
+						 id = "koenig"
+						 value = "schwarz"
+						 name = "pik"
+						 style = "display: none" />
+		         </li>
+		   </ul>
+	</div>
+	
+	<div class = "karten">
+	 
+		<ul>
+				<li>
+					<img src = "img/544617677.jpg"
+					     alt = "koeniginHerz"
+						 id="koenigin" 
+						 value = "rot" 
+						 name = "herz" 
+						 style = "display: block" />
+		         
+				</li>
+				<li>
+					<img src = "img/544613701.jpg"
+					     alt = "koeniginKreuz"
+						 id="koenigin" 
+						 value = "schwarz"
+						 name = "kreuz"
+						 style = "display: none" />
+		         </li>
+				 <li>
+					<img src = "img/544629857.jpg"
+					     alt = "koeniginKaro"
+						 id ="koenigin"
+						 value = "rot"
+						 name = "karo"
+						 style = "display: none" />
+		         </li>
+				 <li>
+					<img src = "img/seo-dame.jpg"
+					     alt = "koeniginPik"
+						 id = "koenigin"
+						 value = "schwarz"
+						 name = "pik"
+						 style = "display: none" />
+		         </li>
+		</ul>
+		
+   </div>
+   
+   <div class= "karten">
+   
+		<ul>
+	
+				<li>
+					<img src = "img/544575507.jpg"
+					     alt = "bubeHerz"
+						 id="bube" 
+						 value = "rot" 
+						 name = "herz" 
+						 style = "display: block" />
+		         </li>
+				<li>
+					<img src = "img/544575207.jpg"
+					     alt = "bubeKreuz"
+						 id="bube" 
+						 value = "schwarz"
+						 name = "kreuz"
+						 style = "display: none" />
+		         </li>
+				 <li>
+					<img src = "img/544636743.jpg"
+					     alt = "bubeKaro"
+						 id ="bube"
+						 value = "rot"
+						 name = "karo"
+						 style = "display: none" />
+		         </li>
+				 <li>
+					<img src = "img/544633405.jpg"
+					     alt = "bubePik"
+						 id = "bube"
+						 value = "schwarz"
+						 name = "pik"
+						 style = "display: none" />
+		         </li>
+		</ul>
+	</div>
+  
+  <div class ="tocenter">
+	<form>
+		Tragen Sie hr Gehalt hier an: <br>
+		<input type="text" id="geld">
+	</form>
+	</div>
+	
+  <div class ="tocenter">
+	<button class="button" onclick = "spielStarten()"> 
+		<span>Spielen</span>
+	</button>
+   </div>
+	
+	<div class ="tocenter"><p id = "ergebnisse"></p></div>
+	
+	<script src = "js/spiel.js"  ></script>
+	<script type = "text/javascript">
+		spielStarten();
+    </script>
+	
+</body>
+
+</html>
+  
+  
